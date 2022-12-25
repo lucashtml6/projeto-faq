@@ -1,0 +1,50 @@
+main {
+  min-height: 100vh;
+  background-color: #1f001e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq {
+  background-color: #fff;
+  width: 50rem;
+  box-shadow: 0px 4px 0px 4px #00000047;
+  border-radius: .5rem;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.faq .header > h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.faq .item {
+  background: #e0e0e0 url(../assets/images/seta-fechada.svg) no-repeat top 15px right 10px;
+  padding: 1rem;
+  border-radius: .5rem;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.faq .item .question {
+  padding-right: 2rem;
+  font-size: 1.6rem;
+}
+
+.faq .item .answer {
+  background-color: #fff;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 1.5rem;
+  cursor: text;
+  display: none;
+}
+
+.faq .item.show .answer{
+  display: block;
+} 
