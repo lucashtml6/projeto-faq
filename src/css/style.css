@@ -45,6 +45,9 @@ main {
   display: none;
 }
 
+.faq .item.show {
+  background: #e0e0e0 url(../assets/images/seta-aberta.svg) no-repeat top 15px right 10px;
+}
 .faq .item.show .answer{
   display: block;
 } 
