@@ -1,0 +1,10 @@
+@media (max-width: 425px) {
+  .faq .item .question {
+    font-size: 1.2rem;
+  }
+
+  .faq .item .answer {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
