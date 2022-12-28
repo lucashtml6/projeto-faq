@@ -31,6 +31,11 @@ main {
 .faq .item .question {
   padding-right: 2rem;
   font-size: 1.6rem;
+  transition: color .2s ease-in-out;
+}
+
+.faq .item .question:hover {
+  color: #F14624;
 }
 
 .faq .item .answer {
